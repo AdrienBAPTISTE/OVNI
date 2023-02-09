@@ -1,12 +1,12 @@
-const b = document.querySelector('.ovni__box')
-b.addEventListener("mouseover", moveHover)
+const box = document.querySelector('.ovni__box')
+box.addEventListener("mouseover", moveHover)
 
 function moveHover(){
-    const i=Math.floor(Math.random()*85)+1;
-    const j=Math.floor(Math.random()*35)+1;
+    const w=Math.floor(Math.random()*85)+1;
+    const h=Math.floor(Math.random()*35)+1;
 
-    b.style.marginLeft=i+"%"
-    b.style.marginTop=j+"%"
+    box.style.marginLeft=w+"%"
+    box.style.marginTop=h+"%"
 }
 
 /*
